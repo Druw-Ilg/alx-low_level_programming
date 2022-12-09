@@ -1,12 +1,12 @@
 #include <stdio.h>
-/*
-*main - the function
-*Return: the result
+/**
+* main - give alaphabet
+* Return: output the result
 */
 int main(void)
 {
 char letter;
-for (letter = 'a' ; letter <= 'z' ; letter++)
+for (letter = 'a' ; letter <= 'z' ; ++letter)
 {
 putchar(letter);
 }
