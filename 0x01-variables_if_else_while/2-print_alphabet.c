@@ -10,10 +10,10 @@ char ln = '\n';
 for (letter = 'a' ; letter <= 'z' ; ++letter)
 {
 putchar(letter);
-}
 if (letter == 'z')
 {
 putchar(ln);
+}
 }
 return (0);
 }
