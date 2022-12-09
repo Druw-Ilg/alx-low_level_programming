@@ -3,6 +3,11 @@
 #include <time.h>
 /* more headers goes there */
 /* betty style doc for function main goes there */
+/**
+* main- verify the n variable
+*
+* Return: return the message to print
+*/
 int main(void)
 {
 int n;
