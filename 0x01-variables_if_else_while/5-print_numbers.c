@@ -8,8 +8,8 @@ int main(void)
 int num = 0;
 while (num <= 9)
 {
-printf("%d", num);
 num++;
+printf("%d", num);
 if (num == 9)
 printf("\n");
 }
