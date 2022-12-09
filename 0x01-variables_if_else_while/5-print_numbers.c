@@ -5,10 +5,9 @@
 */
 int main(void)
 {
-int num = 0;
-while (num <= 9)
+int num;
+for (num = 0 ; num <= 9 ; num++)
 {
-num++;
 printf("%d", num);
 if (num == 9)
 printf("\n");
