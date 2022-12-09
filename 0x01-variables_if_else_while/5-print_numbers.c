@@ -11,6 +11,7 @@ printf("%d", num);
 if (num == 9)
 {
 printf("\n");
+num++;
 }
 } while (num <= 9);
 return (0);
