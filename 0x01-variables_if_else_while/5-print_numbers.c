@@ -6,13 +6,12 @@
 int main(void)
 {
 int num = 0;
-do {
-printf("%d", num);
-if (num == 9)
+while (num <= 9)
 {
-printf("\n");
+printf("%d", num);
 num++;
+if (num == 9)
+printf("\n");
 }
-} while (num <= 9);
 return (0);
 }
