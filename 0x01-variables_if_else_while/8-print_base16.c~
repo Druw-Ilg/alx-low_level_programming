@@ -1,0 +1,24 @@
+#include <stdio.h>
+/**
+* main - give alaphabet
+* Return: output the result
+*/
+int main(void)
+{  
+int num;
+char letter;
+for (num = '0' ; num <= '9' ; num++)
+{
+putchar(num);
+if(num == '9')
+{
+for (letter = 'a' ; letter <= 'f' ; letter++)
+{
+putchar(letter);
+if (letter == 'f')
+putchar('\n');
+}
+}
+}
+return (0);
+}
