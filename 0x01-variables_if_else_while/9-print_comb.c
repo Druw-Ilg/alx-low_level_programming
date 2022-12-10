@@ -14,6 +14,10 @@ putchar(num);
 putchar(',');
 putchar(' ');
 }
+else
+{
+putchar(num);
+}
 }
 return (0);
 }
