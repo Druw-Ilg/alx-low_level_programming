@@ -5,20 +5,17 @@
 */
 int main(void)
 {
-int num;
-int comma = ',';
-int space = ' ';
-int separator = comma + space;
+short num;
 for (num = '0' ; num <= '9' ; num++)
 {
+putchar(num);
 if (!(num == '9'))
 {
-putchar(num);
-putchar(separator);
+putchar(',');
+putchar(' ');
 }
 else
 {
-putchar(num);
 putchar('\n');
 }
 }
