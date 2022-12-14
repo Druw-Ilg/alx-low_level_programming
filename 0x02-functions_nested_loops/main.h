@@ -1,20 +1,29 @@
-int main()
-  
+
+int _putchar(char c);
+
+int print_alphabet(void)
 {
   
-  foo();
+  char letter;
   
-  getchar();
+  char ln = '\n';
   
-  return 0;
+  for (letter = 'a' ; letter <= 'z' ; letter++)
+    
+    {
+      
+      _putchar(letter);
+      
+      if (letter == 'z')
+	
+	{
+	  
+	  _putchar(ln);
+	  
+	}
+      
+    }
+  
+  return (0);
   
 }
-
-void foo()
-  
-{
-  
-  printf("foo called");
-  
-}
-
